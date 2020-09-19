@@ -1,15 +1,29 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - YuME_mapEditor
     Assembly-CSharp.dll:
     - Launcher
     - Menu
     - MenuManager
+    - MoveCamera
+    - PlayerController
+    - PlayerGroundCheck
     - PlayerListItem
+    - PlayerManger
+    - PlayerMovement
     - RoomListItem
     - RoomManager
+    - YuME_editorData
+    - YuME_editorPreferences
+    - YuME_tileGizmo
+    - YuME_tilesetData
     PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PhotonTransformViewEditor
+    - Photon.Pun.PhotonViewInspector
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
+    - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     Unity.Rider.Editor.dll:
@@ -60,6 +74,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -67,6 +83,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 258
       Script: {instanceID: 0}
     Assets/Scenes/MenuScene.unity:
     - Class: 1
@@ -77,11 +95,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -94,52 +122,66 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11200}
     - Class: 114
-      Script: {instanceID: 11300}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11388}
     - Class: 114
-      Script: {instanceID: 11424}
+      Script: {instanceID: 11430}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11452}
     - Class: 114
-      Script: {instanceID: 11544}
+      Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 11560}
+      Script: {instanceID: 11568}
     - Class: 114
-      Script: {instanceID: 11640}
+      Script: {instanceID: 11656}
     - Class: 114
-      Script: {instanceID: 11848}
+      Script: {instanceID: 11666}
     - Class: 114
-      Script: {instanceID: 11874}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 12310}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12368}
+      Script: {instanceID: 12220}
     - Class: 114
-      Script: {instanceID: 12502}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12516}
+      Script: {instanceID: 12314}
     - Class: 114
-      Script: {instanceID: 12636}
+      Script: {instanceID: 12348}
     - Class: 114
-      Script: {instanceID: 12718}
+      Script: {instanceID: 12356}
     - Class: 114
-      Script: {instanceID: 12730}
+      Script: {instanceID: 12406}
     - Class: 114
-      Script: {instanceID: 12786}
+      Script: {instanceID: 12542}
     - Class: 114
-      Script: {instanceID: 12946}
+      Script: {instanceID: 12556}
     - Class: 114
-      Script: {instanceID: 13096}
+      Script: {instanceID: 12680}
     - Class: 114
-      Script: {instanceID: 13168}
+      Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 16592}
+      Script: {instanceID: 12774}
+    - Class: 114
+      Script: {instanceID: 12830}
+    - Class: 114
+      Script: {instanceID: 12998}
+    - Class: 114
+      Script: {instanceID: 13152}
+    - Class: 114
+      Script: {instanceID: 13224}
+    - Class: 114
+      Script: {instanceID: 15496}
+    - Class: 114
+      Script: {instanceID: 15502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -342,6 +384,12 @@ ScriptsOnlyBuild:
     className: Launcher
   - hash:
       serializedVersion: 2
+      Hash: 3091427a2b1e511a2db734c4153d74a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YuME_prefabSamplerData
+  - hash:
+      serializedVersion: 2
       Hash: 11df54cb47bd74c537f3c732a94ea97d
     assemblyName: PhotonUnityNetworking.dll
     namespaceName: Photon.Pun
@@ -370,6 +418,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomManager
   - hash:
       serializedVersion: 2
       Hash: 1103fb0758976355cdf9b7d5ce9cb7e0
@@ -426,6 +480,12 @@ ScriptsOnlyBuild:
     className: PunPlayerScores
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YuME_Preferences
+  - hash:
+      serializedVersion: 2
       Hash: fc7b5e7d6c06e2ed584cb9a4e054c79c
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -462,6 +522,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: fc84a5eadb53c9bd51267359ad717d8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YuME_GizmoGrid
+  - hash:
+      serializedVersion: 2
       Hash: 57d2b3ca58a430f7cf319bb757c1f0f5
     assemblyName: PhotonUnityNetworking.Utilities.dll
     namespaceName: Photon.Pun.UtilityScripts
@@ -478,6 +544,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 438766c06d9e0b7d08f09d2bfb28e97f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YuME_tilesetData
   - hash:
       serializedVersion: 2
       Hash: 14f6e7d5314d3aff9265172f9d1e95a9
@@ -510,6 +582,12 @@ ScriptsOnlyBuild:
     className: PhotonTransformView
   - hash:
       serializedVersion: 2
+      Hash: 4aeb052b78eb8ced0e14a25d3cb1f6b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -522,10 +600,22 @@ ScriptsOnlyBuild:
     className: OnClickDestroy
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerGroundCheck
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerManger
   - hash:
       serializedVersion: 2
       Hash: f84d945e5e1ca985698660fc26e9657f
@@ -576,6 +666,12 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
+      Hash: 74a61d5fcaad70805a434e6b6ef67b69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YuME_MapManager
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -604,6 +700,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: d58ad47f58b331a01492b70c2c966e61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YuME_importerSettings
   - hash:
       serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
@@ -672,6 +774,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 699e3e0b0674949df0c96d93707c774b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YuME_tileGizmo
+  - hash:
+      serializedVersion: 2
       Hash: c5fd97cc10b89deaf7c60af66a6b0d5a
     assemblyName: PhotonRealtime.dll
     namespaceName: Photon.Realtime
@@ -696,6 +804,12 @@ ScriptsOnlyBuild:
     className: PhotonTeamsManager
   - hash:
       serializedVersion: 2
+      Hash: 011e4b8385ff51efd1b223864aa437b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YuME_editorPreferences
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -706,6 +820,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: bb2a8024f251f144a561c112094647cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YuME_editorData
   - hash:
       serializedVersion: 2
       Hash: 2b53d93770b9036b2fd1c7854560bc69
@@ -834,10 +954,16 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: ac1f8c3b03c5c0f768a1d9864c5752b8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: RoomManager
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 65b3a3b9a7779d539ec75a3ceddebdba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveCamera
   platform: 19
   scenePathNames:
   - Assets/Scenes/MenuScene.unity
