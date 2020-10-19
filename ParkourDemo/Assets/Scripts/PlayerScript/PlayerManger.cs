@@ -26,7 +26,7 @@ public class PlayerManger : MonoBehaviour
     void CreateController()
     {
         Debug.Log("Instantiate Player Controller");
-        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerController"), Vector3.zero, Quaternion.identity);
+        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PlayerControllerNeo"), Vector3.zero, Quaternion.identity);
     }
 
     // Update is called once per frame
